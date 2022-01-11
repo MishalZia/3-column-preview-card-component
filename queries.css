@@ -1,0 +1,6 @@
+@media (max-width: 23.4em) {
+  .cols-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
