@@ -40,16 +40,20 @@ body {
   gap: 2.4rem;
 }
 
-.col-1 {
+.col-1:nth-child(1) {
   background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 0.9rem;
+  border-bottom-left-radius: 0.9rem;
 }
 
 .col-2 {
   background-color: hsl(184, 100%, 22%);
 }
 
-.col-3 {
+.col-3:nth-child(3) {
   background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 0.9rem;
+  border-bottom-right-radius: 0.9rem;
 }
 
 .icon {
